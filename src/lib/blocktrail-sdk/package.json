@@ -61,7 +61,7 @@
     "lodash": "~4.17.2",
     "pkginfo": "^0.4.1",
     "promise": "^6.1.0",
-    "q": "1.0.1",
+    "q": "2.0.3",
     "randombytes": "^2.0.1",
     "sjcl": "git://github.com/blocktrail/sjcl.git#minify-library",
     "superagent": "^3.8.1",
