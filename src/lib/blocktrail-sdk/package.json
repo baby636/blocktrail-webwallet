@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "assert-plus": "0.1.5",
-    "async": "0.9.0",
+    "async": "3.2.1",
     "bip39": "git://github.com/blocktrail/bip39.git#sjcl-browser-bip39",
     "bitcoinjs-lib": "git://github.com/blocktrail/bitcoinjs-lib.git#137add06e7bba65efa0e52cf10391177e614f13f",
     "bitcoinjs-message": "^1.0.1",
