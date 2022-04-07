@@ -49,7 +49,7 @@
   "devDependencies": {
     "jshint": "~2.1.9",
     "cover": "*",
-    "jasmine-node": "1.11.0",
+    "jasmine-node": "1.14.6",
     "opener": "*",
     "promises-aplus-tests": "1.x",
     "grunt": "~0.4.1",
