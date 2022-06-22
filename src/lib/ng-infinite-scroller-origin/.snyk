@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - grunt-contrib-connect > connect > compression > accepts > mime:
+        patched: '2022-06-22T16:08:38.861Z'
+    - grunt-contrib-connect > connect > serve-index > accepts > mime:
+        patched: '2022-06-22T16:08:38.861Z'
+    - grunt-contrib-connect > connect > serve-static > send > mime:
+        patched: '2022-06-22T16:08:38.861Z'
+  'npm:negotiator:20160616':
+    - grunt-contrib-connect > connect > compression > accepts > negotiator:
+        patched: '2022-06-22T16:08:38.861Z'
+    - grunt-contrib-connect > connect > serve-index > accepts > negotiator:
+        patched: '2022-06-22T16:08:38.861Z'
