@@ -34,7 +34,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.8.10",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.4.2"
   }
 }
