@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - grunt-browserify > lodash:
+        patched: '2024-02-18T19:02:06.274Z'
+        id: 'npm:lodash:20180130'
+        path: grunt-browserify > lodash
