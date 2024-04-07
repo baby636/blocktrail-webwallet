@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha",
     "clean": "rm -rf build/* && find lib -name '*.js' -delete",
-    "coverage-test": "nyc --reporter=html --reporter=text --reporter=clover mocha"
+    "coverage-test": "nyc --reporter=html --reporter=text --reporter=clover mocha",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,8 @@
   "dependencies": {
     "axios": "^0.17.0",
     "jsrsasign": "^8.0.4",
-    "protobufjs": "^6.8.0"
+    "protobufjs": "^6.8.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -40,5 +43,6 @@
     "mocha": "*",
     "nyc": "^11.3.0",
     "watchify": "*"
-  }
+  },
+  "snyk": true
 }
