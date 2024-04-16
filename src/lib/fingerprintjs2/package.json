@@ -4,7 +4,7 @@
   "description": "Modern & flexible browser fingerprinting library",
   "main": "dist/fingerprint2.min.js",
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "eslint": "^0.14.1",
     "gulp-eslint": "^0.4.2",
     "gulp-rename": "^1.2.2",
