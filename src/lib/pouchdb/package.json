@@ -53,7 +53,7 @@
     "uglify-js": "~2.4.6",
     "jshint": "^2.7.0",
     "pouchdb-http-proxy": "~0.10.3",
-    "corsproxy": "~0.2.13",
+    "corsproxy": "~1.2.0",
     "http-server": "~0.5.5",
     "wd": "~0.2.8",
     "tin": "~0.4.0",
