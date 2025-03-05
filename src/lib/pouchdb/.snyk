@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:semver:20150403':
+    - tin > semver:
+        patched: '2025-03-05T16:00:26.221Z'
+        id: 'npm:semver:20150403'
+        path: tin > semver

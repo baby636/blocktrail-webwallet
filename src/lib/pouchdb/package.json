@@ -38,7 +38,8 @@
     "request": "~2.28.0",
     "spark-md5": "0.0.5",
     "through2": "^0.4.1",
-    "vuvuzela": "^1.0.0"
+    "vuvuzela": "^1.0.0",
+    "@snyk/protect": "latest"
   },
   "optionalDependencies": {
     "leveldown": "~0.10.2"
@@ -100,7 +101,9 @@
     "build-site": "node ./bin/build-site.js",
     "shell": "node ./bin/repl.js",
     "report-coverage": "node ./bin/run-coverage.js",
-    "build-perf": "browserify tests/performance/*.js > tests/performance-bundle.js"
+    "build-perf": "browserify tests/performance/*.js > tests/performance-bundle.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browser": {
     "request": "./lib/deps/request-browser.js",
@@ -114,5 +117,6 @@
     "bluebird": "lie",
     "fs": false,
     "leveldown": false
-  }
+  },
+  "snyk": true
 }
