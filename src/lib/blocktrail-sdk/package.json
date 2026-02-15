@@ -87,7 +87,7 @@
     "brfs": "*",
     "browserify": "*",
     "browserify-versionify": "^1.0.6",
-    "coveralls": "^2.13.1",
+    "coveralls": "^3.0.0",
     "grunt": "~0.4.2",
     "grunt-browserify": "git://github.com/jmreidy/grunt-browserify.git#4f96beb75d27fdebc4359e08e7db4c514f6265a8",
     "grunt-contrib-concat": "~0.5.1",
